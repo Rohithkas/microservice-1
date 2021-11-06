@@ -12,6 +12,11 @@ public class Controller
 	@Autowired
 	private Microservice2Client m2c;
 	
+	@GetMapping("/test")
+	public String testMethod()
+	{
+		return "microservice tested working fine";
+	}
 	@GetMapping("/micro1")
 	public String micro1()
 	{
