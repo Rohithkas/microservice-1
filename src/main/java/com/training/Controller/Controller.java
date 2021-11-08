@@ -25,7 +25,7 @@ public class Controller
 	{
 		String response="";
 		try {
-             response = restTemplate.getForObject("http://3.7.37.186:8086/microservice2/micro2",
+             response = restTemplate.getForObject("http://65.0.118.242:8086/microservice2/micro2",
                     String.class);
         } catch (Exception e) {
             e.printStackTrace();
